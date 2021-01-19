@@ -1,0 +1,20 @@
+<div class="container">
+    <table class="table table-bordered table-inverse">
+      <tr>
+        <th>Car Name</th>
+        <th>Color</th>
+        <th>Model</th>
+      </tr>
+  <tr *ngFor='let car of cars'>
+        <td>
+          {{car.name}}
+        </td>
+        <td>
+          {{car.color}}
+        </td>
+        <td>
+          {{car.model}}
+        </td>
+      </tr>
+    </table>
+  </div>
